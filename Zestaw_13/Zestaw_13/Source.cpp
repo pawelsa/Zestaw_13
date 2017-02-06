@@ -57,13 +57,29 @@ int main() {
 
 	// 3	//Read another, sixth integer from the user and check whether it is one of these five.Use bsearch() on a sorted array.
 
+	/*
+	int val[6];
+	int* element;
+	for (int i = 0; i < 6; i++) {
+		printf("Enter %d value : ", (i + 1));
+		scanf_s("%d", &val[i]);
+	}
 
+	for(int i=0;i<5;i++)
+		for(int j=0;j<6;j++)
+			element = (int*) bsearch(val, values, 5, sizeof(int), cmpfunc);
 
-
+	printf("%d", element);
+	*/
 
 	// 4	//Check, how many floating - point multiplications the computer performs in a second.
 			//Hint: multiply random numbers for a given amount of time : wait, until time() changes, 
 			//then multiply numbers until it changes again(which should happen in one second).
 			//Second hint : check, how long does it take to execute an empty loop and don’t take this time into account – measure only the time of multiplications.Repeat the measurement with divisions.
+	
+	
+	
+	
+	
 	return 0;
 }
